@@ -1,7 +1,3 @@
-# Project_QRAttendance
----
----
-
 # About QR Attendance System
 
 This document outlines the **QR Attendance System**, a mobile application designed to efficiently record user attendance at specific physical locations. The system uses operator-controlled QR code scanning and leverages GPS geo-fencing to ensure that attendance is recorded only when the operator is physically present at the designated location.
