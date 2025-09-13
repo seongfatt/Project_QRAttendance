@@ -1,69 +1,74 @@
-# 📲 QR Attendance System – Visual Flow Guide
+# 📲 QR Attendance System – Introduction & Visual Walkthrough
 
-Welcome to the QR Attendance System! This guide walks you through the full attendance workflow using real screenshots from the app. Each step is GPS-verified, secure, and designed for smooth operator experience.
+Welcome to the QR Attendance System! This mobile app ensures secure, GPS-verified attendance tracking using QR codes. Whether you're managing a conference, classroom, or corporate event, this system makes check-ins effortless and honest.
 
 ---
 
-## 🎬 1. About the System
+## 🎬 About the System
 
 ![About Screen](qr_image/about_qra.JPG)  
-Say goodbye to messy sign-in sheets. This system ensures attendance is recorded only when the operator is physically present at the correct location.
+Say goodbye to messy sign-in sheets. This system ensures attendance is only recorded when the operator is physically present at the correct location.
 
 ---
 
-## 🔐 2. Login & Authentication
+## 🔐 Login & Authentication
 
 ![Login Screen](qr_image/login_qra.JPG)  
-Operators log in using secure credentials to access the QR scanning interface.
+Operators log in using secure credentials to access the scanning interface.
 
 ---
 
-## 📝 3. User Registration
+## 📝 User Registration
 
 ![Register Screen](qr_image/register_qra.JPG)  
 Users are registered and assigned unique QR codes tied to their User ID.
 
 ---
 
-## 🧭 4. Location Selection
+## 👥 Manage Users
 
-![Dropdown UI](qr_image/demo_qra_1.JPG)  
-Operators select the current event location from a dropdown menu (e.g., “Main Hall”).
-
----
-
-## 📍 5. GPS Geo-fencing Validation
-
-![Geo-fence Warning](qr_image/demo_qra_2.JPG)  
-The app checks if the operator is within the GPS radius of the selected location.  
-If not: `"Too far from [Location Name]"` is displayed.
+![Manage Users](qr_image/manage_user_qra_1.JPG)  
+Admins can view and manage user profiles and QR assignments.
 
 ---
 
-## 📷 6. QR Code Scanning
+## 🧭 Location Selection & Geo-fencing
 
-![Scan UI](qr_image/demo_qra_4.JPG)  
-Once validated, the operator scans the user’s QR code using the device camera.
+Operators select the current event location from a dropdown menu.  
+The app checks if the operator is within the GPS radius of the selected location.
+
+| Step | Screenshot |
+|------|------------|
+| Location dropdown | ![Step 1](qr_image/Main_qra_scan_1.JPG) |
+| GPS check prompt | ![Step 2](qr_image/Main_qra_scan_2.JPG) |
+| Geo-fence warning | ![Step 3](qr_image/Main_qra_scan_3.JPG) |
+| Valid location confirmation | ![Step 4](qr_image/Main_qra_scan_4.JPG) |
 
 ---
 
-## ✅ 7. Attendance Confirmation
+## 📷 QR Code Scanning
 
-![Success Message](qr_image/demo_qra_6.JPG)  
-If the scan is successful and location is valid, attendance is recorded with a confirmation message.
+Once location is validated, the operator scans the user’s QR code.
+
+| Step | Screenshot |
+|------|------------|
+| QR scan interface | ![Step 5](qr_image/Main_qra_scan_5.JPG) |
+| Scan in progress | ![Step 6](qr_image/Main_qra_scan_6.JPG) |
+| Scan success | ![Step 7](qr_image/Main_qra_scan_7.JPG) |
+| Attendance confirmation | ![Step 8](qr_image/Main_qra_scan_9.jpg) |
+| Attendance out of range | ![Step 8](qr_image/Main_qra_scan_8.jpg) |
 
 ---
 
-## 🧾 8. Data Logged to Firebase
+## 🧾 Data Logged to Firebase
 
-| Field             | Description                          |
-|------------------|--------------------------------------|
-| `scannedUserId`  | ID of the attendee                   |
-| `scannerUserId`  | ID of the operator                   |
-| `timestamp`      | Date and time of scan                |
-| `latitude`       | Operator’s GPS latitude              |
-| `longitude`      | Operator’s GPS longitude             |
-| `eventLocation`  | Selected location name               |
+Each attendance record includes:
+
+- `scannedUserId` – ID of the attendee  
+- `scannerUserId` – ID of the operator  
+- `timestamp` – Date and time of scan  
+- `latitude` & `longitude` – Operator’s GPS location  
+- `eventLocation` – Selected location name
 
 Stored in:
 
@@ -72,23 +77,14 @@ Stored in:
 
 ---
 
-## 📅 9. View Attendance History
+## 📅 View Attendance History
 
-![History Screen](qr_image/demo_qra_8.JPG)  
-Users can view their attendance history filtered by date and location.
+| View Type | Screenshot |
+|-----------|------------|
+| My Attendance | ![My Attendance](qr_image/ViewMyAttendance_qra_1.jpg) |
+| Global Attendance | ![Global Attendance](qr_image/ViewGlobalAttendance_qra_1.jpg) |
 
----
-
-## 🧩 10. Extra Modules (Optional)
-
-- **VGA Module** – Custom visual analytics  
-  ![VGA Module](qr_image/VGA_qra_1.jpg)
-
-- **VMA Module** – Attendance metrics dashboard  
-  ![VMA Module](qr_image/VMA_qra_1.jpg)
-
-- **MU Module** – Multi-user scan interface  
-  ![MU Module](qr_image/mu_qra_1.JPG)
+Users can view their attendance history filtered by date and location. Admins can access global logs for reporting and audit.
 
 ---
 
@@ -100,3 +96,4 @@ Users can view their attendance history filtered by date and location.
 - ✅ Works great for events, schools, and teams
 
 ---
+
