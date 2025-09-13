@@ -39,9 +39,9 @@ The app checks if the operator is within the GPS radius of the selected location
 
 | Step | Screenshot |
 |------|------------|
-| Location dropdown | ![Step 1](qr_image/Main_qra_scan_1.JPG) |
+| Scan QR | ![Step 1](qr_image/Main_qra_scan_1.JPG) |
 | GPS check prompt | ![Step 2](qr_image/Main_qra_scan_2.JPG) |
-| Geo-fence warning | ![Step 3](qr_image/Main_qra_scan_3.JPG) |
+| Select location | ![Step 3](qr_image/Main_qra_scan_3.JPG) |
 | Valid location confirmation | ![Step 4](qr_image/Main_qra_scan_4.JPG) |
 
 ---
@@ -52,11 +52,11 @@ Once location is validated, the operator scans the user’s QR code.
 
 | Step | Screenshot |
 |------|------------|
-| QR scan interface | ![Step 5](qr_image/Main_qra_scan_5.JPG) |
-| Scan in progress | ![Step 6](qr_image/Main_qra_scan_6.JPG) |
-| Scan success | ![Step 7](qr_image/Main_qra_scan_7.JPG) |
+| Scan QR at selected location | ![Step 5](qr_image/Main_qra_scan_5.JPG) |
+| Allowed location scan | ![Step 6](qr_image/Main_qra_scan_6.JPG) |
+| Scan QR success | ![Step 7](qr_image/Main_qra_scan_7.JPG) |
 | Attendance confirmation | ![Step 8](qr_image/Main_qra_scan_9.jpg) |
-| Attendance out of range | ![Step 8](qr_image/Main_qra_scan_8.jpg) |
+| Attendance out of range | ![Step 9](qr_image/Main_qra_scan_8.jpg) |
 
 ---
 
