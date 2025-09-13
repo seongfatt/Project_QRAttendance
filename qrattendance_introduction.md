@@ -55,8 +55,8 @@ Once location is validated, the operator scans the user’s QR code.
 | QR scan interface | ![Step 5](qr_image/Main_qra_scan_5.JPG) |
 | Scan in progress | ![Step 6](qr_image/Main_qra_scan_6.JPG) |
 | Scan success | ![Step 7](qr_image/Main_qra_scan_7.JPG) |
-| Attendance confirmation | ![Step 8](qr_image/Main_qra_scan_9.jp) |
-| Attendance out of range | ![Step 8](qr_image/Main_qra_scan_8.jp) |
+| Attendance confirmation | ![Step 8](qr_image/Main_qra_scan_9.jpg) |
+| Attendance out of range | ![Step 8](qr_image/Main_qra_scan_8.jpg) |
 
 ---
 
