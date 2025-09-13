@@ -6,35 +6,35 @@ Welcome to the QR Attendance System! This guide walks you through the full atten
 
 ## 🎬 1. About the System
 
-![About Screen](images/about_qra.JPG)  
+![About Screen](qr_image/about_qra.JPG)  
 Say goodbye to messy sign-in sheets. This system ensures attendance is recorded only when the operator is physically present at the correct location.
 
 ---
 
 ## 🔐 2. Login & Authentication
 
-![Login Screen](images/login_qra.JPG)  
+![Login Screen](qr_image/login_qra.JPG)  
 Operators log in using secure credentials to access the QR scanning interface.
 
 ---
 
 ## 📝 3. User Registration
 
-![Register Screen](images/register_qra.JPG)  
+![Register Screen](qr_image/register_qra.JPG)  
 Users are registered and assigned unique QR codes tied to their User ID.
 
 ---
 
 ## 🧭 4. Location Selection
 
-![Dropdown UI](images/demo_qra_1.JPG)  
+![Dropdown UI](qr_image/demo_qra_1.JPG)  
 Operators select the current event location from a dropdown menu (e.g., “Main Hall”).
 
 ---
 
 ## 📍 5. GPS Geo-fencing Validation
 
-![Geo-fence Warning](images/demo_qra_2.JPG)  
+![Geo-fence Warning](qr_image/demo_qra_2.JPG)  
 The app checks if the operator is within the GPS radius of the selected location.  
 If not: `"Too far from [Location Name]"` is displayed.
 
@@ -42,14 +42,14 @@ If not: `"Too far from [Location Name]"` is displayed.
 
 ## 📷 6. QR Code Scanning
 
-![Scan UI](images/demo_qra_4.JPG)  
+![Scan UI](qr_image/demo_qra_4.JPG)  
 Once validated, the operator scans the user’s QR code using the device camera.
 
 ---
 
 ## ✅ 7. Attendance Confirmation
 
-![Success Message](images/demo_qra_6.JPG)  
+![Success Message](qr_image/demo_qra_6.JPG)  
 If the scan is successful and location is valid, attendance is recorded with a confirmation message.
 
 ---
@@ -74,7 +74,7 @@ Stored in:
 
 ## 📅 9. View Attendance History
 
-![History Screen](images/demo_qra_8.JPG)  
+![History Screen](qr_image/demo_qra_8.JPG)  
 Users can view their attendance history filtered by date and location.
 
 ---
@@ -82,13 +82,13 @@ Users can view their attendance history filtered by date and location.
 ## 🧩 10. Extra Modules (Optional)
 
 - **VGA Module** – Custom visual analytics  
-  ![VGA Module](images/VGA_qra_1.jpg)
+  ![VGA Module](qr_image/VGA_qra_1.jpg)
 
 - **VMA Module** – Attendance metrics dashboard  
-  ![VMA Module](images/VMA_qra_1.jpg)
+  ![VMA Module](qr_image/VMA_qra_1.jpg)
 
 - **MU Module** – Multi-user scan interface  
-  ![MU Module](images/mu_qra_1.JPG)
+  ![MU Module](qr_image/mu_qra_1.JPG)
 
 ---
 
@@ -100,4 +100,3 @@ Users can view their attendance history filtered by date and location.
 - ✅ Works great for events, schools, and teams
 
 ---
-
